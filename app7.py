@@ -1433,19 +1433,19 @@ else:
     
     with col1:
         st.markdown("""
-**Step 1: Input**
-Enter or paste your protein sequence in standard amino acid codes (A-Z)
+**Step 1: Input-**
+Enter or paste your protein sequence in standard amino acid codes
         """)
     
     with col2:
         st.markdown("""
-**Step 2: Predict**
+**Step 2: Predict-**
 The BiLSTM model will predict secondary structure in real-time
         """)
     
     with col3:
         st.markdown("""
-**Step 3: Analyze**
+**Step 3: Analyze-**
 Explore visualizations and export results
         """)
     
@@ -1459,8 +1459,8 @@ Explore visualizations and export results
         st.caption("Small example (17 residues)")
     
     with examples_col2:
-        st.code("MKVLIVGAGPNASVVIQ", language="")
-        st.caption("Another example (17 residues)")
+        st.code("MKVLIVGAGPNASVVIQVGDLFRPIGFGQPQIGKEVDLVDIQGQGVFGYFDQVGP", language="")
+        st.caption("Another example (55 residues)")
 
 st.markdown("---")
 st.markdown("""
