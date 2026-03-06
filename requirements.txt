@@ -1,7 +1,8 @@
-streamlit==1.36.0
+streamlit
 tensorflow==2.15.0
-numpy==1.26.4
-pandas==2.2.2
-matplotlib==3.8.4
-plotly==5.22.0
-scikit-learn==1.4.2
+numpy
+pandas
+matplotlib
+plotly
+scikit-learn
+protobuf<4
